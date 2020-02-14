@@ -1,0 +1,16 @@
+
+version: '2.2'
+
+services:
+#  postgres:
+#    restart: always
+#    image: "postgres:10"
+#    ports:
+#    - "5432:5432"
+#    environment:
+#      POSTGRES_DB: eia_data
+#    volumes:
+#      - ./postgres:/var/lib/postgresql/data
+  python:
+    restart: always
+    build: .
