@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class Connector(ABC):
+class DBConnector(ABC):
 
     @abstractmethod
     def connect(self):
