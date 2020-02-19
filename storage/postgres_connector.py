@@ -8,3 +8,9 @@ class PostgresConnector(DBConnector):
 
     def connect(self):
         pass
+
+    def create_database(self):
+        pass
+
+    def create_table(self):
+        pass

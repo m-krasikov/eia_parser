@@ -1,2 +1,7 @@
-base_url: ""
-db_type: ""
+base_url: sss
+db:
+  type: postgres
+  db_name: projects_list
+  table_name: 222
+
+
